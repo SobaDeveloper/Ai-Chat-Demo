@@ -75,6 +75,9 @@ dependencies {
     // Koin Compose
     implementation(libs.koin.androidx.compose)
 
+    // Datastore
+    implementation(libs.androidx.datastore.preferences)
+
     // Testing
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)

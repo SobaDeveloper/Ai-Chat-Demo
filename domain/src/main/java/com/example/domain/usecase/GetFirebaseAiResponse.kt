@@ -1,10 +1,10 @@
 package com.example.domain.usecase
 
 import com.example.domain.models.firebase.ChatMessage
-import com.example.domain.repo.FirebaseRepository
+import com.example.domain.repo.ChatRepository
 
 class GetFirebaseAiResponse(
-    private val repository: FirebaseRepository
+    private val repository: ChatRepository
 ) {
-    suspend operator fun invoke(input: String): ChatMessage = repository.getResponse(input)
+    suspend operator fun invoke(input: String): ChatMessage = repository.getFirebaseResponse(input)
 }

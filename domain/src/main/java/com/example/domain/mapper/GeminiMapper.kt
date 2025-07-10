@@ -9,7 +9,7 @@ import com.example.domain.models.gemini.GeminiRequest
 import com.example.domain.models.gemini.GeminiResponse
 import com.example.domain.models.gemini.PartItem
 
-fun GeminiResponseDto.toNewModel(): GeminiResponse = GeminiResponse(
+fun GeminiResponseDto.toModel(): GeminiResponse = GeminiResponse(
     responseId = responseId,
     text = candidates.first().content.parts.first().text,
     modelVersion = modelVersion,

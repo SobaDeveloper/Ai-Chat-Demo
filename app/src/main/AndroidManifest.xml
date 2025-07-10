@@ -16,7 +16,7 @@
         android:theme="@style/Theme.ArchitectureDemo"
         tools:targetApi="31">
         <activity
-            android:name=".ui.MainActivity"
+            android:name=".feature.main.DemoActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:windowSoftInputMode="adjustResize"

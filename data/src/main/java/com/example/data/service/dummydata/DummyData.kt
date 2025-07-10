@@ -1,10 +1,10 @@
-package com.example.data.network
+package com.example.data.service.dummydata
 
 class DummyData {
     val dummyModelResponse: String = """
         People obtain spring water from a variety of sources:\n\n**1. Natural Springs:**\n\n*   **Directly from the spring:** This is the most authentic source. People may visit a natural spring, if publicly accessible, and collect water directly. Some areas have public access points where people can fill containers.\n*   **Home Well (if the well taps a spring):** Some homes are built near or on top of underground aquifers that feed springs. If a well is drilled into this aquifer, the home can have access to spring water. This is more common in rural areas.\n\n**2. Bottled Water:**\n\n*   **Spring Water Brands:** Many popular bottled water brands source their water from natural springs. These companies bottle and distribute the water.\n*   **Grocery Stores, Convenience Stores, and Restaurants:** You can purchase spring water from these locations.\n\n**3. Water Delivery Services:**\n\n*   **Home and Office Delivery:** Some companies specialize in delivering large bottles of spring water directly to homes and offices.\n\n**4. Water Stores/Refill Stations:**\n\n*   **Bulk Purchase:** Some stores allow customers to refill their own containers with spring water, often for a lower price than buying bottled water.\n\n**Important Considerations:**\n\n*   **Water Quality:** The quality of spring water can vary. It's essential to verify the water source and any treatment processes used to ensure it meets safety standards.\n*   **Regulations:** Spring water is often regulated by government agencies to ensure it meets specific health and safety standards.\n*   **Accessibility:** Access to natural springs can be limited depending on the location.\n*   **Environmental Impact:** Consider the sustainability of spring water sourcing and the environmental impact of bottled water (plastic waste).\n*   **Filtering:** If you're getting water directly from a spring, it's often recommended to filter and/or boil the water to ensure safety.\n
     """.trimIndent()
 
-    val defaultPrompt = "Hello, I'm your helpful English vocabulary instructor. Please give me a word" +
-            "and I will define it for you with usage examples"
+    val defaultPrompt = "Hello, I'm your helpful English vocabulary instructor. Please give me a word " +
+            "and I will define it for you and provide usage examples"
 }
